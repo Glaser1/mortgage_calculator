@@ -37,12 +37,12 @@
 
 ----
 ### Локальный запуск приложения
-#### Что бы поднять контейнеры
+#### Чтобы поднять контейнеры:
 ```shell
 docker stop $(docker ps -aq)
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
 ```
-#### Что бы зайти внутрь контейнера бекенда
+#### Чтобы зайти внутрь контейнера бекенда:
 ```shell
 docker-compose exec backend sh
 ```
