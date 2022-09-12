@@ -46,4 +46,4 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
 ```shell
 docker-compose exec backend sh
 ```
-Сервис будет доступен по ссылке [http://localhost:8000/api/offer]http://localhost:8000/api/offer)
+Сервис будет доступен по ссылке [http://localhost:8000/api/offer/](http://localhost:8000/api/offer/)
